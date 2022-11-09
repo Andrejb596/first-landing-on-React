@@ -1,0 +1,37 @@
+.header {
+    margin-bottom: 100px;
+    &Row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .rightContainer {
+        width: 470px;
+
+        .title {
+            position: relative;
+            z-index: 9;
+            margin-right: -160px;
+
+            font-weight: 700;
+            font-size: 54px;
+            line-height: 79px;
+            letter-spacing: 0.8px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            line-height: 27px;
+            letter-spacing: 1.15px;
+            margin-bottom: 42px;
+        }
+    }
+    .leftContainer{
+        img{
+            border-radius: 40px 40px 40px 0px;
+        }
+    }
+}
+
+

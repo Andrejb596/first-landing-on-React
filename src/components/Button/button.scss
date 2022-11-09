@@ -1,0 +1,39 @@
+.button {
+    background-color: grey;
+    border-radius: 29px;
+    transition: all .3s;
+    height: 58px;
+    padding: 0 37px;
+    line-height: 58px;
+    font-weight: 700;
+    letter-spacing: normal;
+    
+
+    &.one {
+        background: var(--accentColor);
+        color: #fff;
+
+        &:hover {
+            background-color: var(--accentColorHover);
+        }
+
+        &:active {
+            background: var(--accentColor);
+            color: #fff;
+        }
+    }
+
+    &.two {
+        background-color: #fff;
+        color: var(--secondColor);
+
+        &:hover {
+            background-color: var(--secondColorHover);
+        }
+
+        &:active {
+            background-color: #fff;
+            color: var(--secondColor);
+        }
+    }
+}
