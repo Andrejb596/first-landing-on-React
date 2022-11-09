@@ -1,1 +1,1 @@
->_[Link to "React projects" GitHub Pages](https://andrejb596.github.io/my-first-reactProjects/)_
+>_[Link to "React projects" GitHub Pages](https://andrejb596.github.io/first-landing-on-React/)_
