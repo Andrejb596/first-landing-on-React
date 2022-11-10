@@ -1,0 +1,19 @@
+.pageNotFound {
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 40px;
+        }
+        a{
+            text-decoration: underline;
+            font-size: initial;
+        }
+    }
+
+}

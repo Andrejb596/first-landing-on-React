@@ -1,5 +1,7 @@
-export const PromoteSpace = () => {
+export default function () {
     return (
-        <div>PromoteSpace</div>
+        <div className="container">
+            PromoteSpace
+        </div>
     )
 }

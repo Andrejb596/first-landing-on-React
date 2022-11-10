@@ -1,5 +1,9 @@
-export const FindSpace = () => {
+export default function () {
     return (
-        <div>FindSpace</div>
+        <div>
+            <div className="container">
+                FindSpace
+            </div>
+        </div>
     )
 }

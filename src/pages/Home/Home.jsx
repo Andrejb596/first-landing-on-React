@@ -1,10 +1,11 @@
-import { Header } from "./Header/Header";
-import { FirstSection } from "./section/FirstSection";
-export const Home = () => {
+import { Header, FirstSection, StartUsing } from './components'
+
+export default function () {
   return (
     <div className='home'>
       <Header />
       <FirstSection />
+      <StartUsing />
     </div>
   )
 }

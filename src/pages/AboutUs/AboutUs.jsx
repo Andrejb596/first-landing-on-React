@@ -1,5 +1,10 @@
-export const AboutUs = () => {
+export default function () {
     return (
-        <div>AboutUs</div>
+        <div>
+            <div className="container">
+                AboutUs
+            </div>
+        </div>
     )
 }
+

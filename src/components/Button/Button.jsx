@@ -1,6 +1,6 @@
 import './button.scss'
-export const Button = (props) => {
+export const Button = ({children, ...rest}) => {
   return (
-    <button className={props.className}>{props.title}</button>
+    <button {...rest}>{children}</button>
   )
 }

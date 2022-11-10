@@ -5,17 +5,17 @@ import './form.scss'
 export const Form = () => {
     const [isFocus, setIsFocus] = useState(false);
 
-    const hendleInputFocus = () => {
+    const handleInputFocus = () => {
         setIsFocus(true);
     }
-    const hendleInputBlur = () => {
+    const handleInputBlur = () => {
         setIsFocus(false);
     }
     return (
-        <form className={`form ${isFocus === true ? 'fornActive' : ''}`}>
+        <form className={`form ${isFocus ? 'formActive' : ''}`}>
             <label className='label'>
-                <input onFocus={hendleInputFocus} onBlur={hendleInputBlur} type="text" className='input' placeholder='Your email address' />
-                <Button className='button one' title='Subscribe' />
+                <input onFocus={handleInputFocus} onBlur={handleInputBlur} type="text" className='input' placeholder='Your email address' />
+                <Button className='button accentColor'>Subscribe</Button>
             </label>
         </form>
     )

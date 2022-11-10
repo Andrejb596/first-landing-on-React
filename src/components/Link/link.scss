@@ -8,9 +8,10 @@
     line-height: 58px;
     font-weight: 700;
     letter-spacing: normal;
+    cursor: pointer;
 
 
-    &.one {
+    &.accentColor {
         background: var(--accentColor);
         color: #fff;
 
@@ -24,17 +25,31 @@
         }
     }
 
-    &.two {
-        background-color: #fff;
-        color: var(--secondColor);
+    &.secondAccentColor {
+        background-color: var(--secondColor);
+        color: #000;
 
         &:hover {
             background-color: var(--secondColorHover);
         }
 
         &:active {
-            background-color: #fff;
-            color: var(--secondColor);
+            background-color: var(--secondColor);
+            color: #000;
+        }
+    }
+
+    &.play {
+        position: relative;
+        padding-left: 50px;
+
+        &::after {
+            position: absolute;
+            content: url(../../assets/play.svg);
+            top: 0;
+            left: 30px;
         }
     }
 }
+
+

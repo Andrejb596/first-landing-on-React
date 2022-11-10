@@ -1,5 +1,10 @@
-export const ShareSpace = () => {
+export default function () {
     return (
-        <div>ShareSpace</div>
+        <div>
+            <div className="container">
+                ShareSpace
+            </div>
+        </div>
     )
 }
+

@@ -9,7 +9,7 @@
     letter-spacing: normal;
     
 
-    &.one {
+    &.accentColor {
         background: var(--accentColor);
         color: #fff;
 
@@ -23,7 +23,7 @@
         }
     }
 
-    &.two {
+    &.secondAccentColor {
         background-color: #fff;
         color: var(--secondColor);
 
@@ -37,3 +37,5 @@
         }
     }
 }
+
+
