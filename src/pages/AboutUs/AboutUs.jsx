@@ -1,9 +1,10 @@
+import './aboutUs.scss'
+import { DemoView } from "../../components/DemoView/DemoView";
+
 export default function AboutUs() {
     return (
-        <div>
-            <div className="container">
-                AboutUs
-            </div>
+        <div className="container">
+            <DemoView>AboutUs</DemoView>
         </div>
     )
 }

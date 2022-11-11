@@ -1,4 +1,4 @@
-import { Header, FirstSection, StartUsing } from './components'
+import { Header, FirstSection, StartUsing, Serve, Benefits, TestImonials, ContactUs } from './components'
 
 export default function Home() {
   return (
@@ -6,6 +6,10 @@ export default function Home() {
       <Header />
       <FirstSection />
       <StartUsing />
+      <Serve />
+      <Benefits />
+      <TestImonials />
+      <ContactUs />
     </div>
   )
 }

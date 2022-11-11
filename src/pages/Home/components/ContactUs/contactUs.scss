@@ -1,0 +1,45 @@
+.contactUs {
+  margin-bottom: 90px;
+  background-image: url(./assets/backGroundImg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .wrapper {
+    display: flex;
+
+    .content {
+      margin: 210px 50px 55px 150px;
+      color: var(--secondColor);
+
+      h1 {
+        width: 360px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        width: 340px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .imgPerson {
+      position: relative;
+
+      img {
+        position: relative;
+        display: block;
+        z-index: 2;
+      }
+
+      &::before {
+        position: absolute;
+        content: url(./assets/oval.svg);
+        bottom: -10px;
+        right: 35%;
+        transform: translateX(50%);
+      }
+    }
+  }
+}
+
+

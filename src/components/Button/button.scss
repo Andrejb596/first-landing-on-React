@@ -7,11 +7,11 @@
     line-height: 58px;
     font-weight: 700;
     letter-spacing: normal;
-    
+
 
     &.accentColor {
         background: var(--accentColor);
-        color: #fff;
+        color: var(--secondColor);
 
         &:hover {
             background-color: var(--accentColorHover);
@@ -19,12 +19,12 @@
 
         &:active {
             background: var(--accentColor);
-            color: #fff;
+            color: var(--secondColor);
         }
     }
 
     &.secondAccentColor {
-        background-color: #fff;
+        background-color: var(--secondColor);
         color: var(--secondColor);
 
         &:hover {
@@ -32,10 +32,23 @@
         }
 
         &:active {
-            background-color: #fff;
+            background-color: var(--secondColor);
             color: var(--secondColor);
         }
     }
-}
 
+    &.thirdAccentColor {
+        background-color: var(--secondColor);
+        color: var(--thirdColor);
+
+        &:hover {
+            background-color: var(--accentColor);
+            color: var(--secondColor);
+        }
+
+        &:active {
+            background-color: var(--accentColorHover);
+        }
+    }
+}
 

@@ -1,0 +1,33 @@
+.ability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+
+    &:hover {
+        svg {
+            circle {
+                fill: var(--accentColor);
+                fill-opacity: 1;
+            }
+
+            path {
+                fill: var(--secondColor);
+            }
+
+            ellipse {
+                fill: var(--secondColor);
+            }
+        }
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 42px;
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        text-align: center;
+    }
+}

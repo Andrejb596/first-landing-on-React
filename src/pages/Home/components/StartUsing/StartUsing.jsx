@@ -1,4 +1,3 @@
-import React from 'react'
 import dashboard from "./assets/dashboard.jpg";
 import { Link } from "../../../../components/Link/Link";
 import './startUsing.scss'
@@ -6,7 +5,7 @@ import './startUsing.scss'
 export default function () {
     return (
         <div className="container">
-            <div className='startUsing'>
+            <section className='startUsing'>
                 <img src={dashboard} alt="dashboard" />
                 <div className="text">
                     <h2 className='title'>Start using our product</h2>
@@ -16,7 +15,7 @@ export default function () {
                         <Link className='link secondAccentColor play'>Watch now</Link>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }

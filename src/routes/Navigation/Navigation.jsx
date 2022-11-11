@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { routs } from "../utils/objOfRouts";
-import logo from './assets/icon.svg'
+import { Logo } from "../../components/Logo/Logo";
+
 import './navigation.scss'
 
 
@@ -10,10 +11,7 @@ export const Navigation = () => {
     <nav className='navigation'>
       <div className="container">
         <div className="navigationRow">
-          <div className="logo">
-            <img src={logo} alt="logo" />
-            <span>CutSpace</span>
-          </div>
+          <Logo>CutSpace</Logo>
           <ul className="menu">
             <li><NavLink to={routs.Home}>Home</NavLink></li>
             <li><NavLink to={routs.AboutUs}>About us</NavLink></li>

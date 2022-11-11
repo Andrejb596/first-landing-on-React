@@ -1,9 +1,8 @@
+import { DemoView } from "../../components/DemoView/DemoView";
 export default function ShareSpace() {
     return (
-        <div>
-            <div className="container">
-                ShareSpace
-            </div>
+        <div className="container">
+            <DemoView>ShareSpace</DemoView>
         </div>
     )
 }

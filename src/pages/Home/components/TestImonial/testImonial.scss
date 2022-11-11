@@ -1,0 +1,45 @@
+.testImonial {
+    margin-bottom: 40px;
+    width: 100%;
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+
+        h2 {
+            width: 460px;
+        }
+
+        p {
+            width: 400px;
+        }
+    }
+
+    .content {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        a+a {
+            margin-left: 30px;
+        }
+
+        a {
+            &:hover {
+                .country {
+                    color: var(--accentColor);
+                }
+            }
+        }
+
+        .designElement {
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(50%, -50%);
+        }
+    }
+}
+
