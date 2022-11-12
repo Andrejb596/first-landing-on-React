@@ -15,8 +15,8 @@ export const Form = () => {
         <form className={`form ${isFocus ? 'formActive' : ''}`}>
             <label className='label'>
                 <input onFocus={handleInputFocus} onBlur={handleInputBlur} type="text" className='input' placeholder='Your email address' />
-                <Button className='button accentColor'>Subscribe</Button>
             </label>
+                <Button className='button accentColor'>Subscribe</Button>
         </form>
     )
 }

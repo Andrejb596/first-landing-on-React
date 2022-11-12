@@ -4,7 +4,7 @@ import { Link } from "../../../../components/Link/Link"
 
 export default function () {
   return (
-    <div className="firstSection">
+    <section className="firstSection">
       <div className="container">
         <div className="row">
           <img src={img01} alt="firstImg" />
@@ -40,7 +40,7 @@ export default function () {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

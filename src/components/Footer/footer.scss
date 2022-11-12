@@ -1,0 +1,56 @@
+.footer {
+    margin-bottom: 85px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .info {
+            p {
+                margin-top: 15px;
+                margin-bottom: 40px;
+                width: 280px;
+            }
+
+            .socials {
+                a+a {
+                    margin-left: 30px;
+                }
+            }
+        }
+
+        .nav {
+            display: flex;
+
+            .blockPrivacy {
+                width: 150px;
+
+                h4 {
+                    font-size: 21px;
+                    line-height: 32px;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 18px;
+                }
+
+                ul {
+                    li+li {
+                        padding-top: 13px;
+                    }
+
+                    li {
+                        a {
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .blockPrivacy+.blockPrivacy {
+                margin-left: 85px;
+            }
+        }
+    }
+}
+

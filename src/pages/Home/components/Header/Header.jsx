@@ -1,11 +1,11 @@
 import './header.scss'
-import headerImg from '../../../../assets/header/headerImg.jpg'
+import headerImg from './assets/headerImg.jpg'
 import { Form } from "../../../../components/Form/Form";
 
 export default function () {
 
   return (
-    <div className='header'>
+    <section className='header'>
       <div className="container">
         <div className="headerRow">
           <div className="rightContainer">
@@ -22,7 +22,7 @@ export default function () {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

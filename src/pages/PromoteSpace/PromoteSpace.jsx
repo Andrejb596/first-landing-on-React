@@ -1,7 +1,8 @@
-export default function PromoteSpace () {
+import { DemoView } from "../../components/DemoView/DemoView";
+export default function PromoteSpace() {
     return (
         <div className="container">
-            PromoteSpace
+            <DemoView>PromoteSpace</DemoView>
         </div>
     )
 }
